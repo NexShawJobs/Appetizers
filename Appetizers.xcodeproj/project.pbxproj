@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F039B1562B3B40F100E45505 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1552B3B40F100E45505 /* AppetizersApp.swift */; };
-		F039B1582B3B40F100E45505 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1572B3B40F100E45505 /* ContentView.swift */; };
+		F039B1582B3B40F100E45505 /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1572B3B40F100E45505 /* AppetizersTabView.swift */; };
 		F039B15A2B3B40F300E45505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F039B1592B3B40F300E45505 /* Assets.xcassets */; };
 		F039B15D2B3B40F300E45505 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F039B15C2B3B40F300E45505 /* Preview Assets.xcassets */; };
 		F039B1672B3B40F400E45505 /* AppetizersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1662B3B40F400E45505 /* AppetizersTests.swift */; };
 		F039B1712B3B40F400E45505 /* AppetizersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1702B3B40F400E45505 /* AppetizersUITests.swift */; };
 		F039B1732B3B40F400E45505 /* AppetizersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1722B3B40F400E45505 /* AppetizersUITestsLaunchTests.swift */; };
+		F039B1802B3B441D00E45505 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B17F2B3B441D00E45505 /* AppetizerListView.swift */; };
+		F039B1822B3B443E00E45505 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1812B3B443E00E45505 /* AccountView.swift */; };
+		F039B1842B3B446700E45505 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B1832B3B446700E45505 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F039B1522B3B40F100E45505 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F039B1552B3B40F100E45505 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
-		F039B1572B3B40F100E45505 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F039B1572B3B40F100E45505 /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
 		F039B1592B3B40F300E45505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F039B15C2B3B40F300E45505 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F039B1622B3B40F400E45505 /* AppetizersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetizersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		F039B16C2B3B40F400E45505 /* AppetizersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetizersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F039B1702B3B40F400E45505 /* AppetizersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersUITests.swift; sourceTree = "<group>"; };
 		F039B1722B3B40F400E45505 /* AppetizersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F039B17F2B3B441D00E45505 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		F039B1812B3B443E00E45505 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		F039B1832B3B446700E45505 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				F039B1552B3B40F100E45505 /* AppetizersApp.swift */,
-				F039B1572B3B40F100E45505 /* ContentView.swift */,
+				F039B1572B3B40F100E45505 /* AppetizersTabView.swift */,
 				F039B1592B3B40F300E45505 /* Assets.xcassets */,
 				F039B15B2B3B40F300E45505 /* Preview Content */,
+				F039B17F2B3B441D00E45505 /* AppetizerListView.swift */,
+				F039B1812B3B443E00E45505 /* AccountView.swift */,
+				F039B1832B3B446700E45505 /* OrderView.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F039B1582B3B40F100E45505 /* ContentView.swift in Sources */,
+				F039B1822B3B443E00E45505 /* AccountView.swift in Sources */,
+				F039B1582B3B40F100E45505 /* AppetizersTabView.swift in Sources */,
 				F039B1562B3B40F100E45505 /* AppetizersApp.swift in Sources */,
+				F039B1802B3B441D00E45505 /* AppetizerListView.swift in Sources */,
+				F039B1842B3B446700E45505 /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
